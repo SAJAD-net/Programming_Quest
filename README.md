@@ -5,6 +5,7 @@ target of this is programming the small app for fun
 #--> File-hider (C): 
 
 this app using a XOR to changed file for unabling file to using :)
+and with again run, restoring a file.
 
 #--> Pfiglet (python3):
 
