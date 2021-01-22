@@ -4,7 +4,7 @@ purpose of this is, programmings a small apps for fun.
 
 #--> File-hider (C): 
 
-this is app use XOR for unabling file, and again run for enabling file
+this app use XOR for unabling file, and again run for enabling file
 
 #--> Pfiglet (python3):
 
