@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>BMI</class>
+ <widget class="QMainWindow" name="BMI">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>320</width>
+    <height>457</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>320</width>
+    <height>457</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>320</width>
+    <height>457</height>
+   </size>
+  </property>
+  <property name="sizeIncrement">
+   <size>
+    <width>320</width>
+    <height>501</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="../../BMI/images/image.qrc">
+    <normaloff>:/Ubuntu.png</normaloff>:/Ubuntu.png</iconset>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>10</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 20pt &quot;DejaVu Sans&quot;;
+font: italic 20pt &quot;Sans Uralic&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>BMI</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Burden">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>80</y>
+      <width>51</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Burden</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="length">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>120</y>
+      <width>51</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Length</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="LB">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>70</y>
+      <width>113</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="echoMode">
+     <enum>QLineEdit::Normal</enum>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="LL">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>110</y>
+      <width>113</width>
+      <height>29</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="CLOSE">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>420</y>
+      <width>92</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>CLOSE</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>380</y>
+      <width>20</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Bmi">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>340</y>
+      <width>64</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>BMI</string>
+    </property>
+   </widget>
+   <widget class="QGraphicsView" name="Ubuntu">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>420</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/Ubuntu.png);
+border-image: url(:/Ubuntu.png);</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="SBM">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>340</y>
+      <width>161</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Unknow</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="SS">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>380</y>
+      <width>171</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Unknow</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Status">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>380</y>
+      <width>41</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Status</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>340</y>
+      <width>16</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>:</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Run">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>420</y>
+      <width>92</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>RUN</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="gender">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>220</y>
+      <width>91</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>male</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Fmale</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Girl</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Boy</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="age">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>160</y>
+      <width>51</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Age</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="LA">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>150</y>
+      <width>113</width>
+      <height>29</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="../../BMI/images/image.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>CLOSE</sender>
+   <signal>clicked()</signal>
+   <receiver>BMI</receiver>
+   <slot>deleteLater()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>165</x>
+     <y>474</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>159</x>
+     <y>250</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Run</sender>
+   <signal>clicked()</signal>
+   <receiver>BMI</receiver>
+   <slot>deleteLater()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>265</x>
+     <y>474</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>159</x>
+     <y>250</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
