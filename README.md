@@ -24,5 +24,15 @@ fine, this app printing files and folders.like to ls command
 		
 		python3 ptree.py [arguments]
 
+# --> bmi-finder(Python3(QT5))
+this app is bmi-finder for calculate a bmi.
+
+in this app, using a followin library :
+	1-PyQt5
+	
+	for run :
+		pip3 install PyQt5
+
+		python3 bmi-finder.py 
 
 my email : sajadsajad.sch@gmail.com 
