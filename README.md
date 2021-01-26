@@ -20,7 +20,7 @@ and This is app using Pyfiglet library to figlet to text
 fine, this app printing files and folders.like to ls command
 
 	For run:
-		pip3 install colormam
+		pip3 install colorama
 		
 		python3 ptree.py [arguments]
 
