@@ -29,9 +29,9 @@ class Ui_BMI(object):
 "font: italic 20pt \"Sans Uralic\";\n"
 "")
         self.label_8.setObjectName("label_8")
-        self.Burden = QtWidgets.QLabel(self.centralwidget)
-        self.Burden.setGeometry(QtCore.QRect(20, 80, 51, 17))
-        self.Burden.setObjectName("Burden")
+        self.weight = QtWidgets.QLabel(self.centralwidget)
+        self.weight.setGeometry(QtCore.QRect(20, 80, 51, 17))
+        self.weight.setObjectName("Weight")
         self.length = QtWidgets.QLabel(self.centralwidget)
         self.length.setGeometry(QtCore.QRect(20, 120, 51, 17))
         self.length.setObjectName("length")
@@ -91,10 +91,10 @@ class Ui_BMI(object):
         self.Run.clicked.connect(self.RUN)
         QtCore.QMetaObject.connectSlotsByName(BMI)
     def RUN(self):
-        burden=self.LB.text()
+        weight=self.LB.text()
         length=self.LL.text()
         length=float(length)**2
-        bmi=int(burden)//length
+        bmi=int(weight)//length
         if bmi < 18.5:
             self.SBM.setText("Your BMI ➜ %i"%bmi)
             self.SS.setText("Your BMI is Less :|")
@@ -113,7 +113,7 @@ class Ui_BMI(object):
         _translate = QtCore.QCoreApplication.translate
         BMI.setWindowTitle(_translate("BMI", "MainWindow"))
         self.label_8.setText(_translate("BMI", "BMI"))
-        self.Burden.setText(_translate("BMI", "Burden"))
+        self.weight.setText(_translate("BMI", "weight"))
         self.length.setText(_translate("BMI", "Length"))
         self.CLOSE.setText(_translate("BMI", "CLOSE"))
         self.label_7.setText(_translate("BMI", ":"))
