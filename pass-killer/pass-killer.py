@@ -6,7 +6,7 @@ def killer(path):
         print("[!]--> starting ...")
         file=zipfile.ZipFile(path,"r")
         os.mkdir("./password-Killer")
-        with open("source/.dicts","rb") as dicts:
+        with open(".dicts","rb") as dicts:
                 for pwd in dicts.readlines():
                         try:
                                 Efile=file.extractall("./password-Killer",pwd=pwd.strip())
