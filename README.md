@@ -51,4 +51,10 @@
 
 ![bmi](https://user-images.githubusercontent.com/71703544/107474234-002d9b80-6b40-11eb-992c-29ca2fce41a9.png)
 
+## pass-killer(Python3)
+	well, this app is [pass-killer] for guess the password and exteracts zip file's
+
+	how to run:
+		python pass-killer.py -f [filePath]
+
 my email : sajadsajad.sch@gmail.com 
