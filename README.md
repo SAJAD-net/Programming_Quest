@@ -1,7 +1,7 @@
 # unix-tools
 
-	purpose of this is, programmings a small apps for fun.
-	
+	purpose of this is, programmings a small tools for fun.
+	By unix tools I mean writing small tools with the Unix philosophy, not tools that only run on Unix
 
 ## encryptor 
 
