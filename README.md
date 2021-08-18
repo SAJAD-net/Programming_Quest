@@ -41,8 +41,4 @@
 			pip3 install PyQt5
 			python3 bmi.py 
 
-![bmi](https://user-images.githubusercontent.com/71703544/127764566-6ac343c0-727c-4e6f-a562-34f8b6fbb3d4.png)
-
-
-
 ## my email : sajadsajad.sch@gmail.com 
