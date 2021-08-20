@@ -1,47 +1,28 @@
 # unix-tools
 
-	purpose of this is, programmings a small tools for fun.
-	By unix tools I mean writing small tools with the Unix philosophy, not tools that only run on Unix
+	Purpose of this is, programmings a small tools for fun.
+	By unix tools I mean writing small tools with the Unix philosophy, not tools that only run on Unix based systems.
 
 ## encryptor 
 
-	this app use XOR for unabling file, and again run for enabling file
-
+	this tool uses XOR to encrypt the file and activates the file by running it again.
+	
 ## pentools
-    a tool to get the name and number of all penetration testing tools
+
+	a tool to get the name and number of all penetration testing tools.
         
 ## pfiglet
 
-	and This is app using pyfiglet library to figlet to text
-		For run:
-			pip3 install pyfiglet
-			pip3 install colorama
-		
-			python3 pfiglet.py [arguments]
+	And this tool uses the pyfiglet library to format the text.
 
 ## ptree
 
-	fine, this app printing files and folders.like to ls command
-	
-		For run:
-			pip3 install colorama
-		
-			python3 ptree.py [arguments]
-## passx
-	well, this app is [passx] for guess the password and exteracts zip file's
+	fine, this tool printing files and folders.like to ls command.
 
-	how to run:
-		python passx.py -f [filePath]
+## passx
+
+	a tool for extracting zip files by dictionary attack.
 
 ## bmi
-	this app is bmi for calculate a bmi.
 
-	in this app, using a followin library :
-		1-PyQt5
-	
-		for run :
-		
-			pip3 install PyQt5
-			python3 bmi.py 
-
-## my email : sajadsajad.sch@gmail.com 
+	this tool is for calculate a bmi.
