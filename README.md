@@ -7,6 +7,9 @@
 
 	this app use XOR for unabling file, and again run for enabling file
 
+## pentools
+    a tool to get the name and number of all penetration testing tools
+        
 ## pfiglet
 
 	and This is app using pyfiglet library to figlet to text
