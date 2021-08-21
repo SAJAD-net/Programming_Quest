@@ -5,7 +5,7 @@
 
 ## encryptor 
 
-	this tool uses XOR to encrypt the file and activates the file by running it again.
+	uses XOR to encrypt the file and activates the file by running it again.
 	
 ## pentools
 
@@ -17,7 +17,7 @@
 		
 ## pfiglet
 
-	And this tool uses the pyfiglet library to format the text.
+	uses the pyfiglet library to format the text.
 
 ## ptree
 
@@ -25,8 +25,8 @@
 
 ## passx
 
-	a tool for extracting zip files by dictionary attack.
+	extracting zip files by dictionary attack.
 
 ## bmi
 
-	this tool is for calculate a bmi.
+	bmi calculator with python and qt5.
