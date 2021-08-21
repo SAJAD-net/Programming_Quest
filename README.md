@@ -19,6 +19,10 @@
 
 	uses the pyfiglet library to format the text.
 
+## fron
+
+	find and display the number of files and folders.
+	
 ## ptree
 
 	fine, this tool printing files and folders.like to ls command.
