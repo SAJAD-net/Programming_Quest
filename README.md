@@ -10,7 +10,11 @@
 ## pentools
 
 	a tool to get the name and number of all penetration testing tools.
-        
+
+## linuxdistro
+	
+	displays the linux distributions
+		
 ## pfiglet
 
 	And this tool uses the pyfiglet library to format the text.
