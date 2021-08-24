@@ -15,6 +15,10 @@
 	
 	displays the linux distributions
 		
+## weather 
+
+    shows the temperature of the provinces of Iran
+
 ## pfiglet
 
 	uses the pyfiglet library to format the text.
