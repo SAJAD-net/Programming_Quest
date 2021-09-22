@@ -1,14 +1,14 @@
 from sys import argv
 
-alpha = "abcdefghijklmnopqrstuvwxyz"
-chars = list(alpha)
+alpha = list("abcdefghijklmnopqrstuvwxyz")
 
 def encryptor(key, plain):
     cipher=""
+    
     for ch in plain:
         ind = alpha.index(ch.lower())
         dex = lambda x:x+key-26 if x+key >= 26 else x+key
-        nc = chars[dex(ind)]
+        nc = alpha[dex(ind)]
         cipher+=nc
     print(cipher)
 
@@ -17,7 +17,7 @@ def decryptor(key, cipher):
     for ch in cipher:
         ind = alpha.index(ch.lower())
         dex = lambda x:x-key+26 if x-key < 0 else x-key
-        nc = chars[dex(ind)]
+        nc = alpha[dex(ind)]
         plain+=nc
     print(plain)
 
