@@ -1,7 +1,6 @@
 from sys import argv
 
-alpha = "abcdefghijklmnopqrstuvwxyz"
-chars = list(alpha)
+alpha = list("abcdefghijklmnopqrstuvwxyz")
 
 def encryptor(key, plain):
     cipher = ""
@@ -9,7 +8,7 @@ def encryptor(key, plain):
     for ch in plain:
         ind = alpha.index(ch.lower())
         dex = lambda x:x*key%26 if ind != 0 else 0
-        nc = chars[dex(ind)]
+        nc = alpha[dex(ind)]
         cipher+=nc
     print(cipher)
 
@@ -25,7 +24,7 @@ def decryptor(key, cipher):
     for ch in cipher:
         ind = alpha.index(ch.lower())
         dex = lambda x:x*rev%26 if x != 0 else 0
-        nc = chars[dex(ind)]
+        nc = alpha[dex(ind)]
         plain+=nc
     print(plain)
  
