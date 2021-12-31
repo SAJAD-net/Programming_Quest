@@ -42,3 +42,11 @@
 ## bmi
 
 	bmi calculator with python and qt5.
+
+## old_cryptography_algorithms
+	
+	some old cryptographic algorithms
+
+## passcwd
+	
+	Custom length password builder
