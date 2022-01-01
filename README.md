@@ -50,3 +50,7 @@
 ## passcwd
 	
 	Custom length password builder
+
+## sedentary_reminder
+
+	sedentary reminder in python
