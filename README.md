@@ -1,6 +1,5 @@
 # unix-tools
-
-	Purpose of this is, programmings a small tools for fun.
+	Purpose of this is, programming small tools
 	By unix tools I mean writing small tools with the Unix philosophy, not tools that only run on Unix based systems.
 
 ## encryptor 
@@ -54,3 +53,7 @@
 ## sedentary_reminder
 
 	sedentary reminder in python
+	
+## hacker_movies
+
+	the complete list of hacker and cybersecurity movies	
