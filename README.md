@@ -57,3 +57,7 @@
 ## hacker_movies
 
 	the complete list of hacker and cybersecurity movies	
+
+## jcat
+
+	a simple tool for reading and displaying file text in Julia, such as the 'cat' command on Unix-based systems
