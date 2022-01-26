@@ -1,29 +1,26 @@
 import os, zipfile
 import sys
 
-def killer(path):
-        
-        print("[!]--> starting ...")
-        file=zipfile.ZipFile(path,"r")
-        os.mkdir("./password-Killer")
-        with open(".dicts","rb") as dicts:
-                for pwd in dicts.readlines():
-                        try:
-                                Efile=file.extractall("./password-Killer",pwd=pwd.strip())
-                                print("[+] the password of file is ==>",pwd)
-                                print("[!]--> finished !")
-                                break
-                        except:
-                                pass
-                file.close()
-
+def killer(path, dictfile):
+    print("[!] starting ...")
+    file=zipfile.ZipFile(path,"r")
+    os.mkdir("passx")
+    with open(dictfile, "rb") as dicts:
+        for pwd in dicts.readlines():
+            try:
+                Efile=file.extractall("./passx/", pwd.strip())
+                print(f"[+]  password : {pwd}")
+                print("[!]  finished !")
+                break
+            except:
+                pass
+    file.close()
 
 def run():
-        os.system("clear") if os.name == "posix" else os.system("cls")
-        if len(sys.argv) > 1:
-            path = sys.argv[1]
-            killer(path)
-        else:
-            path=input("[!]--> enter path of file --> > ").strip()
-            killer(path) 
+    if len(sys.argv) > 2:
+        path = sys.argv[1]
+        dictfile = sys.argv[2]
+        killer(path, dictfile)
+    else:
+        print("usage : python3 passx.py [PATH] [DICTIONARY]")
 run()
