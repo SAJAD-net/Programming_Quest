@@ -36,7 +36,7 @@
 
 ## passx
 
-	extracting zip files by dictionary attack.
+	extracting encrypted zip files by dictionary attack.
 
 ## bmi
 
