@@ -7,9 +7,9 @@ function help()
     exit()
 end
 
-#reader function to read the file and show it's texts
+#Reads the file and displays it's context
 function reader()
-    #check the user inputs
+    #checks the user inputs
     try
 	for arg in ARGS
 	    if length(arg) > 2 
@@ -19,15 +19,15 @@ function reader()
     catch
         help()
     end
-    #try to read the file 	 
+    #Reads the file 	 
     try
     	global fname
     	open(fname) do f
     	    while ! eof(f)
-    	        line = readline(f) #read the file 
+    	        line = readline(f) #Reads the file 
 	    	if "-s" in ARGS
-		    time = parse(Float64,ARGS[2]) #user time input
-	   	    sleep(time) #wait for [time] second 
+		    time = parse(Float64,ARGS[2]) #User time input
+	   	    sleep(time) #Waits for [time] in second 
 		end
 		println(line)	
             end
