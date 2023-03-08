@@ -21,7 +21,8 @@ def tkshow(label):
 
 
 def chtime(time_type, delay):
-    """ Calculate the delay time in seconds """
+    """ Calculates the delay time """
+
     if time_type == "m":
         delay *= 60
     elif time_type == "h":
