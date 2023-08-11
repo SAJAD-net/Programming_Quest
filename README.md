@@ -1,6 +1,6 @@
 # unix-tools
-	Purpose of this is, programming small tools
-	By unix tools I mean writing small tools with the Unix philosophy, not tools that only run on Unix based systems.
+	Purpose of this repo is, programming small tools
+	By unix-tools I mean writing small tools with the Unix philosophy, not tools that only run on Unix based systems.
 
 ## encryptor 
 
@@ -8,23 +8,23 @@
 	
 ## pentools
 
-	a tool to get the name and number of all penetration testing tools.
+	to get a list of all penetration testing tools.
 
 ## linuxdistro
 	
-	displays the linux distributions
+	displays linux distributions
 		
 ## weather 
 
-    shows the temperature of the provinces of Iran
+    	shows the temperature of the provinces of Iran
 
 ## iptools
 
-    uses api to get and display your ip address and some informations of that
+    	uses api to get and display your ip address and some informations of it
 
 ## pfiglet
 
-	uses the pyfiglet library to format the text.
+	to generate text banners.
 
 ## fron
 
@@ -32,7 +32,7 @@
 	
 ## ptree
 
-	fine, this tool printing files and folders.like to ls command.
+	listing files and folders.
 
 ## passx
 
@@ -56,11 +56,11 @@
 	
 ## hacker_movies
 
-	the complete list of hacker and cybersecurity movies	
+	A complete list of hacking and cybersecurity movies	
 
 ## jcat
 
-	a simple tool for reading and displaying file text in Julia, such as the 'cat' command on Unix-based systems
+	a simple tool for reading and displaying text files in Julia, such as the 'cat' command on Unix-based systems
 
 ## video2audio
 
