@@ -4,7 +4,7 @@
 
 ## encryptor 
 
-	uses XOR to encrypt the file and activates the file by running it again.
+	uses XOR to encrypt the file and decrypts the file by running it again.
 	
 ## pentools
 
