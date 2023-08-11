@@ -69,3 +69,7 @@
 ## len
 
 	to find length of an string
+
+## rmaudio
+
+	remove audio from video
