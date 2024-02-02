@@ -1,10 +1,10 @@
 # unix-tools
-	Purpose of this repo is, programming small tools
+	The purpose of this repo is, programming small tools
 	By unix-tools I mean writing small tools with the Unix philosophy, not tools that only run on Unix based systems.
 
 ## encryptor 
 
-	uses XOR to encrypt the file and decrypts the file by running it again.
+	uses XOR to encrypt and decrypt files.
 	
 ## pentools
 
@@ -16,15 +16,15 @@
 		
 ## weather 
 
-    	shows the temperature of the provinces of Iran
+    	shows the weather informations of the provinces of Iran
 
 ## iptools
 
-    	uses api to get and display your ip address and some informations of it
+    	uses api to get and display your ip address and some other informations
 
 ## pfiglet
 
-	to generate text banners.
+	to generate ascci banners.
 
 ## fron
 
@@ -44,7 +44,7 @@
 
 ## old_cryptography_algorithms
 	
-	some old cryptographic algorithms
+	some famous cryptographic algorithms
 
 ## passcwd
 	
@@ -52,7 +52,7 @@
 
 ## sedentary_reminder
 
-	sedentary reminder in python
+	sedentary reminder in python3
 	
 ## hacker_movies
 
@@ -64,11 +64,11 @@
 
 ## video2audio
 
-	video to audio conversion tool
+	video to audio convertor
 
 ## len
 
-	to find length of an string
+	to find length of a string
 
 ## rmaudio
 
