@@ -1,7 +1,3 @@
-# unix-tools
-	The purpose of this repo is, programming small tools
-	By unix-tools I mean writing small tools with the Unix philosophy, not tools that only run on Unix based systems.
-
 ## encryptor 
 
 	uses XOR to encrypt and decrypt files.
