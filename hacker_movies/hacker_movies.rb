@@ -2,7 +2,7 @@ require 'open-uri'
 require 'nokogiri'
 
 def go()
-  puts "- Getting The Complete List of Hacker And Cybersecurity Movies\n"
+  puts "- Getting a complete list of hacking and cybersecurity movies\n"
   
   url = "https://cybersecurityventures.com/movies-about-cybersecurity-and-hacking/"
 
@@ -21,7 +21,6 @@ def go()
     end
   end
   puts "\n- total movies : #{count}" 
-
 end
 
 go()
