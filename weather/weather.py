@@ -1,24 +1,40 @@
-from requests import get
-from bs4 import BeautifulSoup as bs
 from sys import argv
+from bs4 import BeautifulSoup as bs
+from requests import get
+from prettytable import PrettyTable
 
-def weather():
-    url = "https://www.accuweather.com/en/ir/iran-weather/"
-    headers = {"user-agent" : "Mozila/95", "refere":"google.com"}
+
+url = "https://www.accuweather.com/en/ir/iran-weather/"
+headers = {"user-agent" : "Mozila/95", "refere":"google.com"}
+table = PrettyTable(["City", "Degree(celsius)"])
+
+
+def weather(specific_city):
     res = get(url, headers=headers)
     soup = bs(res.text, "html.parser")
     wh = soup.find_all('a',attrs={'class':'nearby-location weather-card'})
-    c = 1
-    if len(argv) > 2 and argv[1] == "-s":
-        state = argv[2].capitalize()
-        for a in wh:    
-            if state in a.text:
-                print(a.text.strip())
-                break
-            c+=1
-    else:   
-        for a in wh:    
-            print(f"{a.text.strip()}\n", "-"*20)
-            
 
-weather()
+    for a in wh:    
+        info = a.text.split("\n")
+        if specific_city:
+            if specific_city in info:
+                table.add_row([info[1], info[3]])
+                break
+        else:
+            table.add_row([info[1], info[3]])
+
+    print(table)
+
+
+if len(argv) > 2 and argv[1] == "-c":
+    specific_city = argv[2].capitalize()
+elif len(argv) > 1 and argv[1] == '-a':
+    specific_city = None
+else:
+    print("""Usage : python3 weather.py [OPTIONS]\n\
+            OPTIONS:\t-a : to get all cities\n\
+            \t\t-c [CITY] : to get a specific city\n""")
+    exit()
+
+
+weather(specific_city)
